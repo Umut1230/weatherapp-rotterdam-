@@ -1,0 +1,31 @@
+{
+  "name": "rotterdam-weather",
+  "version": "1.0.0",
+  "description": "Rotterdam weather app using React + Stormglass",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "fetch:1d": "node scripts/fetchStormglass.mjs --days 1",
+    "fetch:10d": "node scripts/fetchStormglass.mjs --days 10"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fontsource/inter": "^5.2.6",
+    "date-fns": "^3.6.0",
+    "dotenv": "^17.2.1",
+    "lucide-react": "^0.540.0",
+    "node-fetch": "^3.3.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.5.0",
+    "recharts": "^2.15.4"
+  },
+  "devDependencies": {
+    "vite": "^5.2.0"
+  },
+  "type": "module"
+}
